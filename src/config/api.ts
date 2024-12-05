@@ -2,7 +2,7 @@ import axios from "axios";
 import { getCookieClient } from "@/utils/cookieClient";
 
 const api = axios.create({
-    baseURL: 'https://backend-6dgzu0g1y-leonardohernandesqs-projects.vercel.app/'
+    baseURL: 'https://listacompra-front.vercel.app'
 })
 
 const addAuthTokenToHeader = async (config: any) => {
