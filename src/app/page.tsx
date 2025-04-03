@@ -57,7 +57,7 @@ export default function Home() {
           Acessar
         </Button>
         {error && <span className="text-red-600 mt-2">{error}</span>}
-        <div className="bg-zinc-300 text-black p-5 rounded-md text-center shadow-lg mt-5">
+        <div className="bg-zinc-300 text-black p-3 rounded-md text-center shadow-lg mt-5 text-sm opacity-75">
           <p className="font-bold">Conta de teste</p>
           <p>leonardo@teste.com</p>
           <p>123123123</p>
