@@ -37,6 +37,11 @@ export default function Home() {
         <Input name="password" titleLabel="Password: " error={''} placeholder='Digite a sua senha' value={password} onChange={setPassword} isPassword={true}/>
         <Button onClick={handleLogin} buttonStyle="style2" loading={false}>Acessar</Button>
         {error && <span className="text-red-600">{error}</span>}
+        <div classname='bg-zinc-300 text-black p-5 rounded-md text-center shadow-lg'>
+          <p classname='font-bold'>Conta de teste</p>
+          <p>leonardo@teste.com</p>
+          <p>123123123</p>
+        </div>
       </form>
     </Container>
   );
