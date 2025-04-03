@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <StoreProvider >
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-900`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-900 text-white`}
         >
           {children}
         </body>
