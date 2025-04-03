@@ -37,8 +37,6 @@ export default function Home() {
         <Input name="password" titleLabel="Password: " error={''} placeholder='Digite a sua senha' value={password} onChange={setPassword} isPassword={true}/>
         <Button onClick={handleLogin} buttonStyle="style2" loading={false}>Acessar</Button>
         {error && <span className="text-red-600">{error}</span>}
-
-        <Link href='/register' className="mt-8 text-center opacity-70">Ainda não possuo uma conta!</Link>
       </form>
     </Container>
   );
